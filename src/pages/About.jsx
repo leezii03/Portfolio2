@@ -38,7 +38,7 @@ function About() {
                   <span className="font-medium">Name:</span> LyLy Theav
                 </li>
                 <li>
-                  <span className="font-medium">Date of Birth:</span> 03-09-2004
+                  <span className="font-medium">Date of Birth:</span> <span className="blur-sm text-blue-600">03-09-2004</span>
                 </li>
                 <li>
                   <span className="font-medium">Email:</span>

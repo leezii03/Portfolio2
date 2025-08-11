@@ -39,7 +39,7 @@ function SkillsSection() {
       : skills.filter((skill) => skill.category === activeCategory);
 
   return (
-    <div className="py-14">
+    <div className="py-14 px-4">
       <h1 className="text-center mb-8 text-4xl font-bold">
         My <span className="text-blue-800">Skills</span>
       </h1>
@@ -56,7 +56,7 @@ function SkillsSection() {
           </button>
         ))}
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 py-6 px-12 2xl:px-0">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 py-6">
         {filteredSkills.map((skill, index) => (
           <div
             key={index}

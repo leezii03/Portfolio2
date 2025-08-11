@@ -16,7 +16,7 @@ function AboutSection() {
         About <span className="text-blue-800">Me</span>
       </h1>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center px-12 md:px-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center px-4 md:px-10">
         <div className="space-y-6 text-center">
           <h1 className="font-semibold text-2xl">
             Passionate Web Developer & Tech Creator

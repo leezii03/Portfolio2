@@ -13,7 +13,7 @@ function ContactSection() {
 
   return (
     <div className="py-14">
-      <div className="text-center space-y-6 max-w-2xl mx-auto px-16">
+      <div className="text-center space-y-6 max-w-2xl mx-auto px-12">
         <h1 className="text-3xl md:text-4xl font-bold">
           Get In <span className="text-blue-800">Touch</span>
         </h1>
@@ -23,7 +23,7 @@ function ContactSection() {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 max-w-5xl lg:mx-auto mt-12 mx-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 max-w-5xl lg:mx-auto mt-12 mx-4">
         <div className="space-y-6 text-center">
           <h1 className="text-2xl font-semibold">Contact Information</h1>
 

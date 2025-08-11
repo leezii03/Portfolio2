@@ -18,7 +18,7 @@ function Navbar() {
 
   return (
     <nav className="fixed z-10 w-full top-0 left-0 bg-gray-100 border-b-2">
-      <div className="max-w-7xl mx-auto flex justify-between items-center py-4 px-4 md:px-8">
+      <div className="max-w-7xl mx-auto flex justify-between items-center py-4 px-4">
         {/* Logo */}
         <h1 className="font-bold text-xl">
           LyLy's <span className="text-blue-800">Portfolio</span>

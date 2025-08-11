@@ -17,8 +17,8 @@ function Skills() {
   const categories = ["All", ...Object.keys(skillData)];
 
   return (
-    <div className="min-h-screen bg-gray-100 px-6 py-16">
-      <div className="max-w-6xl mx-auto">
+    <div className="min-h-screen bg-gray-100 px-4 py-16">
+      <div className="max-w-7xl mx-auto">
         <div className="text-center pt-8">
           <h1 className="text-4xl font-bold text-blue-800 mb-6 uppercase">
             My Skills

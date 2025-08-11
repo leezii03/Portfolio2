@@ -7,7 +7,7 @@ const ContactPage = () => {
   const [activeTab, setActiveTab] = useState("form");
 
   return (
-    <div className="lg:h-screen text-gray-800 overflow-hidden py-9">
+    <div className="lg:h-screen text-gray-800 overflow-hidden py-9 px-4">
       {/* Header */}
       <header className="max-w-4xl mx-auto px-6 pt-12 pb-6 text-center">
         <h1 className="text-3xl md:text-4xl font-bold text-blue-800">
@@ -19,7 +19,7 @@ const ContactPage = () => {
       </header>
 
       {/* Tabs */}
-      <div className="max-w-4xl mx-auto px-6 flex">
+      <div className="max-w-4xl mx-auto flex">
         <button
           onClick={() => setActiveTab("form")}
           className={`px-6 py-3 font-medium border-b-2 transition ${
@@ -43,7 +43,7 @@ const ContactPage = () => {
       </div>
 
       {/* Content */}
-      <main className="max-w-4xl mx-auto px-6 pb-16">
+      <main className="max-w-4xl mx-auto pb-16">
         <div className="backdrop-blur-sm bg-white border border-gray-200 rounded-b-lg shadow-sm">
           {activeTab === "form" ? (
             <ContactForm/>

@@ -21,7 +21,7 @@ const techColorMap = {
 
 function ProjectsSection() {
   return (
-    <div className="py-14" id="project">
+    <div className="py-14 px-4" id="project">
       <div className="text-center space-y-6 my-12 px-8">
         <h1 className="text-4xl font-bold">
           Featured <span className="text-blue-800">Projects</span>
@@ -32,7 +32,7 @@ function ProjectsSection() {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-12 xl:px-0">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {projects.sort((a, b) => b.id - a.id).slice(0, 3).map((project, index) => (
           <div
             key={index}
