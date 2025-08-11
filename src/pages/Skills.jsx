@@ -25,9 +25,9 @@ function Skills() {
           </h1>
           {selected === "ComingSoon" ? (
             <p className="text-gray-600 mb-10 max-w-2xl mx-auto">
-              I aim to learn these programming languages, DBMS, and new technologies in the future to
-              enhance my experience and knowledge, and to better prepare myself
-              to adapt to the evolving IT industry.
+              I aim to learn these programming languages, DBMS, and new
+              technologies in the future to enhance my experience and knowledge,
+              and to better prepare myself to adapt to the evolving IT industry.
             </p>
           ) : (
             <p className="text-gray-600 mb-10">
@@ -114,15 +114,17 @@ function Skills() {
                   <p className="text-sm text-gray-600 mb-2">
                     {skill.description}
                   </p>
-                  <p className="text-sm text-gray-500 mb-1">
-                    <strong>Experience:</strong> {skill.experience}
-                  </p>
-                  <p className="text-sm text-gray-500 mb-1">
-                    <strong>Tools:</strong> {skill.tools.join(", ")}
-                  </p>
-                  <p className="text-sm text-gray-500">
-                    <strong>Projects:</strong> {skill.projectsUsedIn.join(", ")}
-                  </p>
+                  {skill.level !== "ComingSoon" && (
+                    <>
+                      <p className="text-sm text-gray-500 mb-1">
+                        <strong>Tools:</strong> {skill.tools.join(", ")}
+                      </p>
+                      <p className="text-sm text-gray-500">
+                        <strong>Projects:</strong>{" "}
+                        {skill.projectsUsedIn.join(", ")}
+                      </p>
+                    </>
+                  )}
                 </div>
               ))}
             </div>

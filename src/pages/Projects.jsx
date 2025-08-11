@@ -5,18 +5,18 @@ import projects from "../data/projects";
 import images from "../data/images";
 
 const techColorMap = {
-  'HTML': "bg-orange-500 text-white",
-  'CSS': "bg-blue-500 text-white",
-  'Bootstrap': "bg-purple-500 text-white",
-  'JavaScript': "bg-yellow-400 text-black",
-  'React': "bg-cyan-500 text-white",
-  'React Native': "bg-cyan-500 text-white",
-  'TailwindCSS': "bg-sky-400 text-white",
-  'Superbase': "bg-green-600 text-white",
-  'PHP': "bg-indigo-600 text-white",
-  'Laravel': "bg-red-500 text-white",
-  'MySQL': "bg-blue-800 text-white",
-  'TMDB API': "bg-blue-700 text-white"
+  HTML: "bg-orange-500 text-white",
+  CSS: "bg-blue-500 text-white",
+  Bootstrap: "bg-purple-500 text-white",
+  JavaScript: "bg-yellow-400 text-black",
+  React: "bg-cyan-500 text-white",
+  "React Native": "bg-cyan-500 text-white",
+  TailwindCSS: "bg-sky-400 text-white",
+  Superbase: "bg-green-600 text-white",
+  PHP: "bg-indigo-600 text-white",
+  Laravel: "bg-red-500 text-white",
+  MySQL: "bg-blue-800 text-white",
+  "TMDB API": "bg-blue-700 text-white",
 };
 
 const statusBadgeMap = {
@@ -134,15 +134,24 @@ export default function Projects() {
                         {icons.github}
                       </a>
 
-                      <a
-                        href={project.demoUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-gray-600 hover:text-blue-800 w-6 h-6"
-                        title="Live Preview"
-                      >
-                        {icons.eye}
-                      </a>
+                      {project.demoUrl ? (
+                        <a
+                          href={project.demoUrl}
+                          target="_blank"
+                          title="Live Preview"
+                          className="w-6 h-6 hover:text-blue-800 duration-300"
+                        >
+                          {icons.eye}
+                        </a>
+                      ) : (
+                        <Link
+                          to={`/projects/${project.id}`}
+                          className="w-6 h-6"
+                          title="Live Preview"
+                        >
+                          {icons.link}
+                        </Link>
+                      )}
                     </div>
                   </div>
                 </div>
