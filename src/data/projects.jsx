@@ -1,0 +1,86 @@
+import images from "./images";
+
+const projects = [
+  {
+    id: 1,
+    title: "Clone Kisskh Website",
+    des: "A beautiful landing page app using React and Tailwind.",
+    img: images.kisskh,
+    techs: ["React", "TailwindCSS", "TMDB API"],
+    demoUrl: "https://leezii03.github.io/dramamovie/",
+    gitUrl: "https://github.com/leezii03/dramamovie",
+    status: "Finished",
+    type: "Front-End",
+    features: ["Responsive Design", "Username: Heng, Password: 123"],
+    goal: "",
+    date: "",
+    challanges: [],
+    learnings: []
+  },
+  {
+    id: 2,
+    title: "Jongdeng News",
+    des: "A beautiful landing page app using React and Tailwind.",
+    img: images.jongdengnews,
+    techs: ["PHP", "HTML", "CSS", "Bootstrap"],
+    demoUrl: "",
+    gitUrl: "https://github.com/leezii03/jongdengnews",
+    status: "In Progress",
+    type: "Back-End",
+    features: ["No Responsive", "Reusable Components"],
+    goal: "",
+    date: "",
+    challanges: [],
+    learnings: []
+  },
+  {
+    id: 3,
+    title: "Movie Website",
+    des: "A beautiful landing page app using React and Tailwind.",
+    img: images.merlmovie,
+    techs: ["React", "TailwindCSS", "TMDB API"],
+    demoUrl: "",
+    gitUrl: "https://github.com/leezii03/Merlmovie",
+    status: "In Progress",
+    type: "Front-End",
+    features: ["No Responsive", "Modern UI"],
+    goal: "",
+    date: "",
+    challanges: [],
+    learnings: []
+  },
+  {
+    id: 4,
+    title: "Clone Khmer Coder Website",
+    des: "A beautiful landing page app using React and Tailwind.",
+    img: images.khmercoder,
+    techs: ["React", "TailwindCSS"],
+    demoUrl: "",
+    gitUrl: "https://github.com/leezii03/Clone_KhmerCoder",
+    status: "In Progress",
+    type: "Front-End",
+    features: ["No Responsive", "Modern UI"],
+    goal: "",
+    date: "",
+    challanges: [],
+    learnings: []
+  },
+  {
+    id: 5,
+    title: "Habit Tracking App",
+    des: "A beautiful landing page app using React and Tailwind.",
+    img: "",
+    techs: ["React Native", "TailwindCSS", "Superbase"],
+    demoUrl: '',
+    gitUrl: "https://github.com/leezii03/Habit-Tracker",
+    status: "Finished",
+    type: "Front-End",
+    features: ["Responsive Design", "Reusable Components"],
+    goal: "",
+    date: "",
+    challanges: [],
+    learnings: []
+  },
+];
+
+export default projects;
