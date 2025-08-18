@@ -5,18 +5,20 @@ import projects from "../data/projects";
 import images from "../data/images";
 
 const techColorMap = {
-  HTML: "bg-orange-500 text-white",
-  CSS: "bg-blue-500 text-white",
-  Bootstrap: "bg-purple-500 text-white",
-  JavaScript: "bg-yellow-400 text-black",
-  React: "bg-cyan-500 text-white",
-  "React Native": "bg-cyan-500 text-white",
-  TailwindCSS: "bg-sky-400 text-white",
-  Superbase: "bg-green-600 text-white",
-  PHP: "bg-indigo-600 text-white",
-  Laravel: "bg-red-500 text-white",
-  MySQL: "bg-blue-800 text-white",
-  "TMDB API": "bg-blue-700 text-white",
+  'HTML': "bg-orange-500 text-white",
+  'CSS': "bg-blue-500 text-white",
+  'Bootstrap': "bg-purple-500 text-white",
+  'JavaScript': "bg-yellow-400 text-black",
+  'React': "bg-cyan-500 text-white",
+  'React Native': "bg-cyan-500 text-white",
+  'TailwindCSS': "bg-sky-400 text-white",
+  'Superbase': "bg-green-600 text-white",
+  'PHP': "bg-indigo-600 text-white",
+  'Laravel': "bg-red-500 text-white",
+  'MySQL': "bg-blue-800 text-white",
+  'TMDB API': "bg-blue-700 text-white",
+  'App Write': 'bg-pink-500 text-white',
+  'Expo': 'bg-black text-white',
 };
 
 const statusBadgeMap = {

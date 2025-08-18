@@ -117,7 +117,7 @@ function About() {
             <p>
               Hello! I'm
               <span className="font-semibold text-blue-700">Theav LyLy</span>, a
-              passionate developer from Cambodia with a keen interest in
+              passionate developer in Phnom Penh with a keen interest in
               building modern, user-friendly web applications. I'm a fourth-year
               Computer Science student with hands-on experience in both
               front-end and back-end development.
@@ -139,8 +139,8 @@ function About() {
             <br />
             <p>
               I'm currently learning on exciting projects like a full-stack
-              e-commerce website, while also preparing for my{" "}
-              <span className="font-medium text-blue-600">CCNA</span>
+              e-commerce website, while also preparing for my
+              <span className="font-medium text-blue-600"> CCNA </span>
               certification to deepen my networking knowledge.
             </p>
             <br />

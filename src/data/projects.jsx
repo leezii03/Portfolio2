@@ -4,9 +4,9 @@ const projects = [
   {
     id: 1,
     title: "Clone Kisskh Website",
-    des: "A beautiful landing page app using React and Tailwind.",
+    des: "A responsive movie streaming",
     img: images.kisskh,
-    techs: ["React", "TailwindCSS", "TMDB API"],
+    techs: ["HTML", "CSS", "Bootstrap"],
     demoUrl: "https://leezii03.github.io/dramamovie/",
     gitUrl: "https://github.com/leezii03/dramamovie",
     status: "Finished",
@@ -20,7 +20,7 @@ const projects = [
   {
     id: 2,
     title: "Jongdeng News",
-    des: "A beautiful landing page app using React and Tailwind.",
+    des: "A backend-driven news with reusable components for easier content management.",
     img: images.jongdengnews,
     techs: ["PHP", "HTML", "CSS", "Bootstrap"],
     demoUrl: "",
@@ -36,7 +36,7 @@ const projects = [
   {
     id: 3,
     title: "Movie Website",
-    des: "A beautiful landing page app using React and Tailwind.",
+    des: "A modern movie browsing platform, integrating TMDB API to fetch real-time movie data.",
     img: images.merlmovie,
     techs: ["React", "TailwindCSS", "TMDB API"],
     demoUrl: "https://merlmovie.vercel.app/",
@@ -52,7 +52,7 @@ const projects = [
   {
     id: 4,
     title: "Clone Khmer Coder Website",
-    des: "A beautiful landing page app using React and Tailwind.",
+    des: "A React-based landing page clone of Khmer Coder website with modern UI design.",
     img: images.khmercoder,
     techs: ["React", "TailwindCSS"],
     demoUrl: "https://clone-khmer-coder.vercel.app/",
@@ -70,7 +70,7 @@ const projects = [
     title: "Habit Tracking App",
     des: "A beautiful landing page app using React and Tailwind.",
     img: "",
-    techs: ["React Native", "TailwindCSS", "Superbase"],
+    techs: ["React Native", "TailwindCSS", "App Write", "Expo"],
     demoUrl: '',
     gitUrl: "https://github.com/leezii03/Habit-Tracker",
     status: "Finished",

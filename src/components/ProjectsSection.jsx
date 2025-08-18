@@ -16,7 +16,9 @@ const techColorMap = {
   'PHP': "bg-indigo-600 text-white",
   'Laravel': "bg-red-500 text-white",
   'MySQL': "bg-blue-800 text-white",
-  'TMDB API': "bg-blue-700 text-white"
+  'TMDB API': "bg-blue-700 text-white",
+  'App Write': 'bg-pink-500 text-white',
+  'Expo': 'bg-black text-white',
 };
 
 function ProjectsSection() {
