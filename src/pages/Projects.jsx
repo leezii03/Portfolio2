@@ -55,7 +55,7 @@ export default function Projects() {
                     className="h-48 w-full object-cover"
                   />
                 ) : (
-                  <div className="flex justify-center items-center h-48">
+                  <div className="flex justify-center items-center">
                     <img
                       src={images.comingsoon}
                       className="w-52 h-52 object-contain text-center"
