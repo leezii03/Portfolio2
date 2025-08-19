@@ -31,11 +31,11 @@ import mongodb from '/images/mongodb.svg';
 import kisskh from '/images/kisskh.jpg'
 
 
-import comingsoon from '/images/comingsoon.png'
+import comingsoon from '/images/comingsoon.jpg'
 import merlmovie from '/images/merlmovie.jpg'
 import khmercoder from '/images/khmercoder.jpg'
 import jongdengnews from '/images/jongdengnews.jpg'
-import habittracker from '/images/comingsoon.png'
+import habittracker from '/images/comingsoon.jpg'
 
 
 const images = {
