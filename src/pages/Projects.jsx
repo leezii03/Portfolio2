@@ -58,7 +58,7 @@ export default function Projects() {
                   <div className="flex justify-center items-center h-48">
                     <img
                       src={images.comingsoon}
-                      className="w-52 h-fit text-center"
+                      className="w-52 h-52 object-contain text-center"
                       alt=""
                     />
                   </div>
